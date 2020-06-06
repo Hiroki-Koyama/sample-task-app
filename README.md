@@ -42,3 +42,4 @@ $ rails server
 
 * **email** : sample@email.com
 * **password** : password
+# sample-task-app
