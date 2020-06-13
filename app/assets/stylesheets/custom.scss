@@ -51,21 +51,83 @@ p {
 }
 
 /* ヘッダー */
+#header {
+  background-color: teal;
+}
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  font-style: italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #c0c0c0;
   text-decoration: none;
+}
+
+li .header-list {
+  font-weight: bold;
+  color: #fff !important;
+}
+
+
+li .header-list:hover {
+  color: #c0c0c0 !important;
+  background-color: teal;
+}
+
+#dropdown-title {
+  background-color: teal;
+}
+
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  color: #777777;
+  white-space: nowrap;
+  background-color: rgba(200,200,200,0.5);
+  font-weight: bold;
+}
+
+#top-main-title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.jumbotron h1 {
+  font-size: 63px;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.col-md-7 {
+  float: left;
+  width: 58.3333333333%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-md-4 {
+  float: right;
+  width: 33.3333333333%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* デバッグウインドウ */
