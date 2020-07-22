@@ -12,6 +12,8 @@
 
 .btn-login {
   margin-top: 10px;
+  opacity: 0.65;
+  -webkit-appearance: button;
 }
 
 .checkbox-login {
@@ -20,4 +22,8 @@
   span {
     font-weight: normal;
   }
+}
+
+.btn-block {
+  cursor: not-allowed;
 }
